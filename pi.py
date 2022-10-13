@@ -5,7 +5,6 @@ import math
 width = 10000
 heigth = width
 radio = width
-
 npuntos = 0
 ndentro = 0
 radio2 = radio*radio
@@ -13,8 +12,6 @@ replicas = 50
 promediopi = []
 listareplicas = []
 listapromedios = []
-
-
 for j in range(replicas):
     for i in range(1,10000):
         x = randint(0,width)
