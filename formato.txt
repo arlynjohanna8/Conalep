@@ -2,7 +2,7 @@ Github IsaacEstrada159
 
 correo:
 isaac.estradagrc@uanl.edu.mx
-asunto: Rubrica1.2.1 316
+asunto: Rubrica1.2.1 315
 
 nombre del archivo:
 apellidos316.docx
