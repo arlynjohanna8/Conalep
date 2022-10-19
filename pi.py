@@ -2,18 +2,22 @@ import matplotlib.pyplot as plt
 from random import randint
 import statistics
 import math
-width = 1000
-heigth = width
-radio = width
+largo = 1000
+altura = largo
+radio = largo
 npuntos = 0
 ndentro = 0
 radio2 = radio*radio
+
 replicas = 10
+numerosaliatorios = 10000
+
+
 promediopi = []
 listareplicas = []
 listapromedios = []
 for j in range(replicas):
-    for i in range(1,10000):
+    for i in range(1,numerosaliatorios):
         x = randint(0,width)
         y = randint(0,width)
         npuntos += 1
