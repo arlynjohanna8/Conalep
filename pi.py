@@ -18,8 +18,8 @@ listareplicas = []
 listapromedios = []
 for j in range(replicas):
     for i in range(1,numerosaliatorios):
-        x = randint(0,width)
-        y = randint(0,width)
+        x = randint(0,largo)
+        y = randint(0,largo)
         npuntos += 1
         if x*x + y*y <= radio2:
             ndentro += 1
