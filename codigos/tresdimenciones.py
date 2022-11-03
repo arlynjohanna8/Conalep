@@ -3,8 +3,8 @@ from math import sqrt
 import matplotlib.pyplot as plt
 dim = 2
 dim2 = 3
-largo = 50
-largo2 = 50
+largo = 500
+largo2 = 500
 pos = [0]*dim
 pos2 = [0]*dim2
 lista = []
@@ -32,9 +32,15 @@ for i in range(replicas):
     lista.append(resultado)
     lista2.append(resultado2)
 my_dict = {'ABC': lista, 'DEF':lista2}
-print(lista)
-print(lista2)
+#print(lista)
+#print(lista2)
+
 fig, ax = plt.subplots()
+ax.set_title('Gráfica Caja Bigote')
+ax.set_xlabel('dimenciones')
+ax.set_ylabel('pasos')
+
 ax.boxplot(my_dict.values())
+plt.xticks([1, 2], ['dimención 2', 'dimención 3'])
 
 plt.show()
