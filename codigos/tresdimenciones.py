@@ -31,7 +31,7 @@ for i in range(replicas):
     resultado2 = sqrt((posinicial2[0] - pos2[0])**2 + (posinicial2[1] - pos2[1])**2 + (posinicial2[2] - pos2[2])**2)  
     lista.append(resultado)
     lista2.append(resultado2)
-my_dict = {'ABC': lista, 'DEF':lista2}
+datos = {'dimencion2': lista, 'dimencion3':lista2}
 #print(lista)
 #print(lista2)
 
@@ -40,7 +40,7 @@ ax.set_title('Gráfica Caja Bigote')
 ax.set_xlabel('dimenciones')
 ax.set_ylabel('pasos')
 
-ax.boxplot(my_dict.values())
+ax.boxplot(datos.values())
 plt.xticks([1, 2], ['dimención 2', 'dimención 3'])
 
 plt.show()
