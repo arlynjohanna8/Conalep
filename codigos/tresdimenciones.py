@@ -3,13 +3,13 @@ from math import sqrt
 import matplotlib.pyplot as plt
 dim = 2
 dim2 = 3
-largo = 500
-largo2 = 500
+largo = 500 # ponen sus tres ultimos numeros de su matruicula
+largo2 = 500 # ponen sus tres ultimos numeros de su matruicula
 pos = [0]*dim
 pos2 = [0]*dim2
 lista = []
 lista2 = []
-replicas = 50
+replicas = 90
 def paso(pos, dim):
     d = randint(0, dim-1)
     pos[d] += -1 if random() < 0.5 else 1
@@ -32,8 +32,8 @@ for i in range(replicas):
     lista.append(resultado)
     lista2.append(resultado2)
 datos = {'dimencion2': lista, 'dimencion3':lista2}
-#print(lista)
-#print(lista2)
+print('Dimención2', lista)
+print('dimención3', lista2)
 
 fig, ax = plt.subplots()
 ax.set_title('Gráfica Caja Bigote')
