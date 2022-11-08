@@ -9,7 +9,7 @@ pos = [0]*dim
 pos2 = [0]*dim2
 lista = []
 lista2 = []
-replicas = 90
+replicas = 100
 def paso(pos, dim):
     d = randint(0, dim-1)
     pos[d] += -1 if random() < 0.5 else 1
