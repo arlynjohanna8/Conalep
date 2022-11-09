@@ -3,8 +3,8 @@ from math import sqrt
 import matplotlib.pyplot as plt
 dim = 2
 dim2 = 3
-largo = 500 # ponen sus tres ultimos numeros de su matruicula
-largo2 = 500 # ponen sus tres ultimos numeros de su matruicula
+largo = 942 # ponen sus tres ultimos numeros de su matruicula
+largo2 = 942# ponen sus tres ultimos numeros de su matruicula
 pos = [0]*dim
 pos2 = [0]*dim2
 lista = []
